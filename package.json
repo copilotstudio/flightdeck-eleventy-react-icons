@@ -1,0 +1,20 @@
+{
+  "name": "@flightdeck/eleventy-react-icons",
+  "version": "0.5.0",
+  "repository": "https://github.com/copilotstudio/flightdeck-eleventy-react-icons.git",
+  "description": "React Icons for Eleventy",
+  "main": "index.js",
+  "keywords": [
+    "Eleventy"
+  ],
+  "author": "Copilot Dev <copilotdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "decamelize": "^5.0.0",
+    "intl-list-format": "^1.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0"
+  }
+}
