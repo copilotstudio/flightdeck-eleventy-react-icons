@@ -6,7 +6,7 @@ A configurable Eleventy shortcode that outputs React Icons icon svgs in a custom
 
 ### Installation
 
-`npm install --save-dev @cavu/eleventy-react-icons`
+`npm install --save-dev @flightdeck/eleventy-react-icons`
 
 ### Adding to Eleventy
 
@@ -14,7 +14,7 @@ In .eleventy.js:
 
 ```js
 // require
-const { ReactIcon } = require("@cavu/eleventy-react-icons");
+const { ReactIcon } = require("@flightdeck/eleventy-react-icons");
 module.exports = function (config) {
   // Shortcode
   config.addNunjucksShortcode("ReactIcon", ReactIcon);
@@ -27,7 +27,8 @@ module.exports = function (config) {
 ```json
 {...
   "config": {
-    "reactIconOutputFolder": "./foo/bar",
+    "reactIconPath": "./src/img/", // defaults to "/"
+    "reactIconOutputFolder": "./foo/bar", // defaults to "./dist"
   },
 ...}
 ```
