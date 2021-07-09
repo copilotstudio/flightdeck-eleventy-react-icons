@@ -24,7 +24,7 @@ module.exports = function (config) {
 
 #### In package.json, you can configure the folder where the SVG Sprite will be output:
 
-```json
+```js
 {...
   "config": {
     "reactIconPath": "./src/img/", // defaults to "/"
