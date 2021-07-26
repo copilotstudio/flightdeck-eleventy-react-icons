@@ -28,7 +28,7 @@ let outputFolder =
   "./dist";
 
 let iconPath =
-  require(`${process.cwd()}/package.json`).config.reactIconOutputFolder || "/";
+  require(`${process.cwd()}/package.json`).config.reactIconPath || "/";
 
 if (!fs.existsSync(path.resolve(process.cwd(), outputFolder))) {
   console.warn(

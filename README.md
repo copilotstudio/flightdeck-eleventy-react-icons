@@ -53,7 +53,7 @@ module.exports = function (config) {
 
 ### CSS
 
-Default styles for an icon can be imported from `@cavu/eleventy-react-icons/icon.css`;
+Default styles for an icon can be imported from `@flightdeck/eleventy-react-icons/icon.css`;
 They are pretty bare bones, so feel free to use them or not:
 
 ```css
