@@ -1,6 +1,6 @@
 {
   "name": "@flightdeck/eleventy-react-icons",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "repository": "https://github.com/copilotstudio/flightdeck-eleventy-react-icons.git",
   "description": "React Icons for Eleventy",
   "main": "index.js",
